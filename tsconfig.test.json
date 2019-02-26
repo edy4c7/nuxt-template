@@ -1,4 +1,11 @@
 {
-  "extends": "./tsconfig",
+  "extends": "@nuxt/typescript",
+  "compilerOptions": {
+    "types": [
+      "@types/node",
+      "@types/vue-app",
+      "@types/jest"
+    ]
+  },
   "exclude": []
 }
