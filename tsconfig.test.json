@@ -1,5 +1,5 @@
 {
-  "extends": "@nuxt/typescript",
+  "extends": "./node_modules/@nuxt/typescript/tsconfig.json",
   "compilerOptions": {
     "types": [
       "@types/node",

@@ -1,5 +1,5 @@
 {
-  "extends": "@nuxt/typescript",
+  "extends": "./node_modules/@nuxt/typescript/tsconfig.json",
   "compilerOptions": {
     "baseUrl": "./",                       /* Base directory to resolve non-absolute module names. */
     "types": [
