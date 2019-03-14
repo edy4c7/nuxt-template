@@ -12,12 +12,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
     "nuxt": "^2.4.5",
-    "nuxt-ts": "^2.4.5",
     "vue-property-decorator": "^7.3.0"
   },
   "devDependencies": {
+    "@nuxt/typescript": "^2.4.5",
     "@types/jest": "^23.3.9",
     "@types/node": "^10.12.1",
     "@types/package-json": "^5.0.0",
