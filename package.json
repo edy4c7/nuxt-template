@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt-ts",
-    "dev-debug": "node --inspect-brk=9229 node_modules/nuxt/bin/nuxt",
+    "dev-debug": "node --inspect-brk=9229 node_modules/nuxt-ts/bin/nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate"
@@ -20,7 +20,6 @@
   "devDependencies": {
     "@types/jest": "^23.3.9",
     "@types/node": "^10.12.1",
-    "@types/package-json": "^5.0.0",
     "babel-jest": "^23.6.0",
     "jest": "^23.6.0",
     "nodemon": "^1.11.0",

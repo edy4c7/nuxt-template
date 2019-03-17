@@ -3,6 +3,7 @@
     "extends": [
         "tslint:recommended"
     ],
+    "object-literal-key-quotes": false,
     "jsRules": {},
     "rules": {},
     "rulesDirectory": []
