@@ -1,9 +1,14 @@
 {
-  "extends": "./node_modules/@nuxt/typescript/tsconfig.json",  "compilerOptions": {
+  "extends": "./node_modules/@nuxt/typescript/tsconfig.json",
+  "compilerOptions": {
     "baseUrl": "./",                       /* Base directory to resolve non-absolute module names. */
     "types": [
       "@types/node",
       "@nuxt/vue-app"
     ],                           /* Type declaration files to be included in compilation. */
-  }
+  },
+  "exclude": [
+    "*.config.js",
+    "./modules/config"
+  ]
 }
