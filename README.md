@@ -2,6 +2,9 @@
 
 > My Nuxt.js project template
 
+TypeScriptでNuxtするやつ。  
+主に自分用の備忘録。
+
 ## Build Setup
 
 ``` bash
